@@ -35,7 +35,7 @@ class CircularQueue:
         This function adds an element to the back (tail) of the queue.
         If the queue is full, it displays a message informing that the
         queue is full. If not, the element is added to the queue and then
-        the tail will point to the next element.
+        the tail will point to the next element..
         """
         if(self.is_full()):
            raise Exception("Queue is full")
